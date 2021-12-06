@@ -1,0 +1,138 @@
+header {
+  position: fixed;
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  top: 0%;
+  right: 0%;
+  left: 0%;
+  margin: 0 15%;
+}
+.image-docplanner {
+  width: 250px;
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+}
+header ul li {
+  margin: 10px;
+  list-style: none;
+  color: #00b39b;
+}
+.Making {
+  margin: 1% 15%;
+  margin-top: 100px;
+  text-align: center;
+}
+.Making img {
+  width: 70px;
+}
+.Making h4 {
+  font-size: 30px;
+  color: #00b39b;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 200;
+}
+/* .Making div p {
+  color: blue;
+  display: inline-block;
+  width: 20%;
+  margin: 50px;
+} */
+.making-paraghraphe {
+  margin: 0 15%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.making-paraghraphe p {
+  text-align: justify;
+  width: 45%;
+  line-height: 150%;
+  color: #00b39b;
+}
+.differente-categorie {
+  display: flex;
+  margin: 100px 15%;
+  /* padding: 10px; */
+  justify-content: space-between;
+  height: 300px;
+  color: white;
+}
+.For {
+  position: relative;
+  padding: 25px;
+  width: 25%;
+  font-size: 20px;
+  border-radius: 30px;
+}
+#For-clinics {
+background-color: rgb(73, 73, 184);
+}
+#For-patients{
+  background-color: blueviolet;
+}
+#For-doctors{
+  background-color: dodgerblue;
+}
+.For h4{
+  bottom: 3%;
+  position: absolute;
+}
+.mor{
+  margin-bottom: 70px;
+}
+.link-parteniere{
+  display: flex;
+  align-content: space-between;
+  border: 1px solid black;
+  margin: 0 15%;
+  padding: 0 5px;
+}
+.link-parteniere div{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+ width: 80%;
+height: 80%;
+margin: 100px;
+padding: 5px;
+}
+.link-parteniere svg{
+  margin: 5px;
+  width: 150px;
+}
+
+.link-parteniere h3{
+  position: relative;
+  padding: 6px;
+  width: 18%;
+  height: 5%;
+  font-size: 30px;
+}
+.information{
+  background-color: #e5faf8;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15%;
+  height: 500px;
+  border: 2px solid black;
+
+}
+.infomation-plus{
+  display: flex;
+  justify-content: end;
+  flex-wrap: wrap;
+  margin:25px 0px 0 150px;
+  width: 70%;
+  border: 1px solid red;
+}
+.countries{
+  text-align: center;
+  color: #00b39b;
+  width: 200px;
+  background-color: white;
+  margin: 10px;
+
+}
